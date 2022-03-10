@@ -1,0 +1,180 @@
+extends layout 
+
+block content 
+  .d-flex.justify-content-center
+    div(style='width: 60%;')
+      #carouselExampleControls.carousel.slide(data-bs-ride='carousel')
+        .carousel-inner
+          .carousel-item.active
+            img.d-block.w-100(src='images/sh2.jpg' style='height: 762px;' alt='...')
+          .carousel-item
+            img.d-block.w-100(src='images/sh3.jpg' style='height: 762px;' alt='...')
+          .carousel-item
+            img.d-block.w-100(src='images/sh4.jpg' style='height: 762px;' alt='...')
+          .carousel-item
+            img.d-block.w-100(src='images/mob1.jpg' style='height: 762px;' alt='...')
+          .carousel-item
+            img.d-block.w-100(src='images/mob2.jpg' style='height: 762px;' alt='...')
+          .carousel-item
+            img.d-block.w-100(src='images/sh2.svg' alt='...')
+        button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='prev')
+          span.carousel-control-prev-icon(aria-hidden='true')
+          span.visually-hidden Previous
+        button.carousel-control-next(type='button' data-bs-target='#carouselExampleControls' data-bs-slide='next')
+          span.carousel-control-next-icon(aria-hidden='true')
+          span.visually-hidden Next
+  .d-flex.justify-content-center
+    div(style='margin-top: 160px; width: 60%;')
+      .d-flex.justify-content-between(style='margin-bottom: 8px;')
+        div
+          h4 Smart Phones
+        div
+          a(style='text-decoration: none;' href='/products')
+            button(style='border-color: rgb(247, 202, 6); border-radius: 5px; text-align: right;') Shop More >
+      .d-flex.justify-content-center
+        div
+          .card(style='width: 18rem;')
+            a(href=' /mob1' style='text-decoration: none;')
+              img.card-img-top(src='images/mob4.jpg' style='height: 290px; width: 286px;' alt='...')
+              .card-body
+                h5.card-title.text-black Apple Iphone 13 Pro
+                p.card-text(style='color: rgb(226, 189, 21);') Rs.250,999
+        div(style='margin-left: 2px;')
+          a(href=' /mob2' style='text-decoration: none;')
+          .card(style='width: 18rem;')
+            a(href=' /mob2' style='text-decoration: none;')
+              img.card-img-top(src='images/mob3.jpg' style='height: 290px; width: 286px;' alt='...')
+              .card-body
+                h5.card-title.text-black Samsung S21 Ultra
+                p.card-text(style='color: rgb(226, 189, 21);') Rs.234.499
+        div(style='margin-left: 2px;')
+          .card(style='width: 18rem;')
+            a(href=' /mob3' style='text-decoration: none;')
+              img.card-img-top(src='images/mob5.jpg' style='height: 290px; width: 286px;' alt='...')
+              .card-body
+                h5.card-title.text-black Xiaomi Mi 11
+                p.card-text(style='color: rgb(226, 189, 21);') Rs.144,999
+        div(style='margin-left: 2px;')
+          .card(style='width: 18rem;')
+            a(href=' /mob4' style='text-decoration: none;')
+              img.card-img-top(src='images/mob6.jpg' style='height: 290px; width: 286px;' alt='...')
+              .card-body
+                h5.card-title.text-black Oneplus 9 Pro
+                p.card-text(style='color: rgb(226, 189, 21);') Rs.164,999
+  div(style='padding: 60px 190px')
+    hr(style='color: rgb(170, 170, 182); padding: 1.5px;')
+  .d-flex.justify-content-center
+    div(style='width: 60%;')
+      .d-flex.justify-content-between(style='margin-bottom: 8px;')
+        div
+          h4 Power Banks
+        div
+          a(style='text-decoration: none;' href='/products')
+            button(style='border-color: rgb(247, 202, 6); border-radius: 5px; text-align: right;') Shop More >
+  .d-flex.justify-content-center
+    div
+      .card(style='width: 18rem;')
+        a(href=' /bank1' style='text-decoration: none;')
+          img.card-img-top(src='images/bank.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Anker PowerCore Slim 10000mAh
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.5,500
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href=' /bank2' style='text-decoration: none;')
+          img.card-img-top(src='images/bank2.jpeg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Anker PowerCore 20000mAh PD
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.8,000
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href=' /bank3' style='text-decoration: none;')
+          img.card-img-top(src='images/bank3.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Aukey 20W 10000mAH PD Wireless Charging
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.6,100
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href=' /bank4' style='text-decoration: none;')
+          img.card-img-top(src='images/bank4.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black RAVPower Turbo 10050mAh
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.3,999
+  div(style='padding: 60px 190px')
+    hr(style='color: rgb(170, 170, 182); padding: 1.5px;')
+  .d-flex.justify-content-center
+    div(style='width: 60%;')
+      .d-flex.justify-content-between(style='margin-bottom: 8px;')
+        div
+          h4 Chargers
+        div
+          a(style='text-decoration: none;' href='/products')
+            button(style='border-color: rgb(247, 202, 6); border-radius: 5px; text-align: right;') Shop More >
+  .d-flex.justify-content-center
+    div
+      .card(style='width: 18rem;')
+        a(href='/chr1' style='text-decoration: none;')
+          img.card-img-top(src='images/chr1.jpg' style='height: 314px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black AUKEY Omnia 65W USB C
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.6,300
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='/chr2' style='text-decoration: none;')
+          img.card-img-top(src='images/ch4.jpg' style='height: 314px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Anker PowerPort 2 Lite
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.1,700
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='/chr3' style='text-decoration: none;')
+          img.card-img-top(src='images/ch2.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Aukey Minima 20W PD Charger
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.2,490
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='chr4' style='text-decoration: none;')
+          img.card-img-top(src='images/ch3.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Aukey Minima 20W PD 3.0 Charger
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.5,800
+  div(style='padding: 60px 190px')
+    hr(style='color: rgb(170, 170, 182); padding: 1.5px;')
+  .d-flex.justify-content-center
+    div(style='width: 60%;')
+      .d-flex.justify-content-between(style='margin-bottom: 8px;')
+        div
+          h4 Ear-Phones
+        div
+          a(style='text-decoration: none;' href='/products')
+            button(style='border-color: rgb(247, 202, 6); border-radius: 5px; text-align: right;') Shop More >
+  .d-flex.justify-content-center
+    div
+      .card(style='width: 18rem;')
+        a(href='/er1' style='text-decoration: none;')
+          img.card-img-top(src='images/er1.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Sony WF-1000XM3
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.29,999
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='Product_Description_Page/Earphone/er2.html' style='text-decoration: none;')
+          img.card-img-top(src='images/er2.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Apple Airpods Pro
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.42,999
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='Product_Description_Page/Earphone/er3.html' style='text-decoration: none;')
+          img.card-img-top(src='images/er3.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black Samsung Galaxy Buds Pro
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.23,999
+    div(style='margin-left: 2px;')
+      .card(style='width: 18rem;')
+        a(href='Product_Description_Page/Earphone/er4.html' style='text-decoration: none;')
+          img.card-img-top(src='images/er4.jpg' style='height: 290px; width: 286px;' alt='...')
+          .card-body
+            h5.card-title.text-black JBL PowerBeats
+            p.card-text(style='color: rgb(226, 189, 21);') Rs.34,999

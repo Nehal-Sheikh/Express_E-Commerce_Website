@@ -1,0 +1,33 @@
+extends layout 
+
+block content 
+  .d-flex.justify-content-center
+    div(style='margin-top: 160px; width: 60%;')
+      form.row.g-3
+        .col-md-6
+          label.form-label(for='validationServer01') First name
+          input#validationServer01.form-control(type='text' value='' required='')
+          .valid-feedback
+        .col-md-6
+          label.form-label(for='validationServer02') Last name
+          input#validationServer02.form-control(type='text' value='' required='')
+          .valid-feedback
+        .col-md-6(style='margin-top: 50px;')
+          label.form-label(for='validationServer03') Email Address
+          input#validationServer03.form-control(type='email' aria-describedby='validationServer03Feedback' required='')
+          #validationServer03Feedback.invalid-feedback
+        .col-md-3(style='margin-top: 50px;')
+          label.form-label(for='validationServer03') Contact No.
+          input#validationServer03.form-control(type='number' aria-describedby='validationServer03Feedback' required='')
+          #validationServer03Feedback.invalid-feedback
+        .col-md-3(style='margin-top: 50px;')
+          label.form-label(for='validationServer03') City
+          input#validationServer03.form-control(type='text' aria-describedby='validationServer03Feedback' required='')
+          #validationServer03Feedback.invalid-feedback
+        .col-md-12(style='margin-top: 50px;')
+          label.form-label(for='validationServer03') Message
+          textarea#validationServer03.form-control(rows='4' type='text' aria-describedby='validationServer03Feedback' required='')  
+          #validationServer03Feedback.invalid-feedback
+        div
+          .col-12.d-flex.justify-content-center(style='margin-top: 50px; margin-bottom: 30px;')
+            button.btn(type='submit' style='background-color: rgb(247, 202, 6); border-radius: 3px;') Submit
